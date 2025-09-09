@@ -68,11 +68,23 @@ The project follows a modular architecture, leveraging Docker Compose to orchest
 
 ```mermaid
 graph TD
+    subgraph Data Ingestion & Processing
+        CoinGecko_API[CoinGecko API]
+        ETL_Script(ETL App)
+        PostgreSQL_DB[(PostgreSQL DB)]
+    end
+
+    subgraph Data Consumption & Visualization
+        User[User]
+        Dashboard(Dashboard)
+        Backend_API(Backend API)
+    end
+
+    CoinGecko_API --> ETL_Script
+    ETL_Script --> PostgreSQL_DB
     User --> Dashboard
-    Dashboard --> API
-    API --> DB
-    App --> DB
-    CoinGecko API --> App
+    Dashboard --> Backend_API
+    Backend_API --> PostgreSQL_DB
 ```
 
 ## Getting Started
