@@ -12,3 +12,4 @@ fastapi
 uvicorn
 psycopg2-binary
 streamlit
+prophet
