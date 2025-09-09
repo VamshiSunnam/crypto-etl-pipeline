@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Float, String
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import declarative_base
 from typing import Optional
 
 Base = declarative_base()
