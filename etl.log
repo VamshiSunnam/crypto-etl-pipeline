@@ -1,0 +1,15 @@
+2025-09-09 10:03:47,249 INFO Successfully fetched top 50 cryptocurrencies from CoinGecko API.
+2025-09-09 10:03:47,256 INFO Raw data saved to raw.json
+2025-09-09 10:03:52,645 INFO Data transformed and cleaned using pandas.
+2025-09-09 10:03:52,645 INFO Transformed data saved to crypto_top_50.csv
+2025-09-09 10:04:09,277 INFO Market share chart saved to market_share.png
+2025-09-09 10:04:09,520 INFO Price bar chart saved to price_bar.png
+2025-09-09 10:04:16,412 INFO Candlestick chart saved to bitcoin_candlestick.png
+2025-09-09 10:04:22,546 INFO Correlation scatter plot saved to correlation_plot.png
+2025-09-09 10:04:27,898 WARNING Data validation issues found:
+2025-09-09 10:04:27,898 WARNING - Missing values found in columns: ['max_supply']
+2025-09-09 10:04:40,790 WARNING Missing values found in non-critical column: max_supply
+2025-09-09 10:04:40,790 INFO Data validation passed. No issues found.
+2025-09-09 10:42:02,346 INFO Successfully fetched top 50 cryptocurrencies from CoinGecko API.
+2025-09-09 10:42:06,538 INFO Successfully fetched top 50 cryptocurrencies from CoinGecko API.
+2025-09-09 10:42:06,628 INFO Data transformed and cleaned using pandas, with time-series features added.

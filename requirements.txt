@@ -1,0 +1,14 @@
+requests
+pandas
+sqlalchemy
+matplotlib
+fire
+python-dotenv
+pytest
+requests-mock
+tenacity
+ruff
+fastapi
+uvicorn
+psycopg2-binary
+streamlit
