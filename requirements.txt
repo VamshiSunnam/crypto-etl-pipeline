@@ -13,3 +13,4 @@ uvicorn
 psycopg2-binary
 streamlit
 prophet
+scikit-learn
